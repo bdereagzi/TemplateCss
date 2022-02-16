@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    display:flex;
+    background-color:black;
+    justify-content: space-between;
+    padding:10px;
+    
+}
+.L-items{
+display:flex;
+font-size:20px;
+}
+.L-items>a{
+    padding: 8px 16px 8px 16px;
+    color:white;
+    text-decoration: none;
+}
+.logo
+{
+    background-color: #009688;
+    height:100%;
+    width:100%;
+}
+.L-items>a:hover{
+    background-color: chartreuse;
+    color:black;
+}
+.R-items{
+    margin-left: auto;
+    padding-right: 8px;
+    margin-right: 16px;
+    padding: 8px 16px;
+
+}
+.R-items>a:hover{
+        color:black;
+       background-color: chartreuse;
+}
+.container{
+  
+    
+   position: relative;
+
+}
+.header-img{
+    width:100%;
+    height: 675px;
+    object-fit: cover;
+}
+.header-img-text{
+    background-color: black;
+    color:azure;
+    padding:15px;
+    position: absolute;
+    bottom: 20px;
+    left:10px;
+    font-size: 24px;;
+}
+.header-img-text:hover{
+    background-color: #009688;
+    color: white;
+}
+.ourteam{
+    padding: 100px;
+    font-size: 25px;
+   
+}
+.ourteam-header{
+    text-align: center;
+}
+.ourteam-description{
+    text-align: center;
+    font-size: 25px;
+}
+.ourteam-images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:100px;
+}
+.ourteam-card{
+    text-align: center;
+}
+.ourteam-card-img{
+    border-radius: 100%;
+    width: 300px;
+    
+}
+.work{
+    background-color: #333333;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:25px;
+    padding-top:80px;
+}
+.work-txt{
+    width:24%;
+}
+.work-title{
+    font-size:30px;
+    font-family:'Segoe UI';
+    padding-bottom:15px;
+}
+.work-txt2{
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.work-customer{
+    width:24%;
+    background-color:white;
+    color:black;
+}
+.img-customer{
+    max-width: 100%;
+    height: auto;
+}
+.work-txt3{
+    padding:20px;
+}
+.customer-title{
+    font-family:'Segoe UI';
+    font-size:24px;
+    padding-bottom:10px;
+}
+.customer-txt1{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.customer-txt2{
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.pricing-container{
+    padding:60px;
+    padding-top:100px;
+}
+
+.pricing-title{
+    text-align:center;
+    font-family:'Segoe UI';
+    font-size:30px;
+    padding-bottom:15px;
+}
+
+.pricing-subtitle {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 15px;
+    padding-bottom: 35px;
+}
+
+.price-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:500px;
+}
+
+.price-box-header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-family: Verdana;
+    font-size: 24px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.5px;
+}
+
+.price-box-header2 {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-family: Verdana;
+    font-size: 24px;
+    border-color: grey;
+    border-width: 0.5px;
+}
+.price-box {
+    background-color: white;
+    width:32%;
+
+}
+
+.feature {
+    text-align: center;
+    padding: 15px;
+    font-family: Verdana;
+    font-size: 15px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.5px;
+}
+.price {
+    text-align: center;
+    padding: 25px;
+    font-family: Verdana;
+    font-size:25px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.5px;
+}
+
+.button {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 25px;
+    font-family: Verdana;
+    font-size: 25px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.5px;
+}
+
+.button-sign {
+    background-color: #009688;
+    color:white;
+    padding:15px;
+    padding-left:25px;
+    padding-right:25px;
+    font-family:Verdana;
+    font-size:15px;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:azure;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.footer-link{
+    background-color: chartreuse;
+    padding: 15px 20px;
+    color:azure;
+}
